@@ -1,0 +1,23 @@
+{
+  "name": "react-genesis",
+  "version": "1.0.0",
+  "description": "Another boilerplate for react",
+  "main": "src/index.tsx",
+  "repository": "https://github.com/sirluis/react-genesis.git",
+  "author": "Luis H. <eu@luiis.me>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "parcel serve src/index.tsx",
+    "build": "parcel build src/index.tsx"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.6.3"
+  }
+}
